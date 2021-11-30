@@ -1,0 +1,1979 @@
+<!DOCTYPE html>
+<html lang="vi">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Thiết Kế Web</title>
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:title" content="Thiết Kế Web" />
+      <meta property="og:image" content="assets/images/logo.png" />
+      <link rel="stylesheet" href="assets/css/all.css">
+      <link rel="stylesheet" href="assets/css/style.css-id=d60e5fc0922786cb4e22.css"  type="text/css">
+      <script async src="assets/js/js-id=UA-120147319-7.js" ></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-120147319-7');
+      </script>
+      <script async src="assets/js/api.js" ></script>
+   </head>
+   <body>
+      <header class="site-header">
+         <div class="c-header__top">
+            <ul class="search-main-menu">
+               <li>
+                  <form id="blog-post-search" class="ajax manga-search-form" action="#" method="get">
+                     <input type="text" placeholder="Search..." name="s" value="" class="manga-search-field ui-autocomplete-input" autocomplete="off" required>
+                     <a href="javascript:void(0)" class="close-form-search"><i class="fas fa-times"></i></a>
+                     <button type="submit"><i class="fas fa-search"></i></button>
+                     <div class="loader-inner line-scale">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                     </div>
+                     <div class="ui-menu" style="display: none;"></div>
+                  </form>
+               </li>
+            </ul>
+            <div class="main-navigation style-1 ">
+               <div class="container ">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="main-navigation_wrap">
+                           <div class="wrap_branding">
+                              <a class="logo" href="#"  title="Mô hình thiết kế web">
+                                 <h1 class="m-0 h-home"><img width="159" height="30" class="img-responsive" src="assets/images/logo.png" tppabs="https://saytruyen.net/assets/images/logo.png" alt="Say Truyện | Đọc Truyện Tranh Manga Manhwa Manhua Online"></h1>
+                              </a>
+                           </div>
+                           <div class="main-menu">
+                              <ul class="nav navbar-nav main-navbar">
+                                 <li>
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/genre  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://saytruyen.net/genre%27" tppabs="https://saytruyen.net/genre">Thể Loại</a>
+                                 </li>
+                                 <li>
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/completed  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/completed%27" tppabs="https://saytruyen.net/completed">Hoàn Thành</a>
+                                 </li>
+                                 <li>
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/history  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/history%27" tppabs="https://saytruyen.net/history">Lịch Sử</a>
+                                 </li>
+                                 <li>
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#form-login">Đang theo dõi</a>
+                                 </li>
+                                 <li class="up-manga">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/user-panel  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/user-panel%27" tppabs="https://saytruyen.net/user-panel" class="menu-link  main-menu-link"> Đăng Truyện </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="custom-control custom-switch toggle-contrast">
+                              <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                              <label class="custom-control-label"></label>
+                           </div>
+                           <div class="search-navigation search-sidebar">
+                              <ul class="main-menu-search nav-menu">
+                                 <li class="menu-search">
+                                    <a href="javascript:;" class="open-search-main-menu">
+                                       <i class="fas fa-search"></i>
+                                    <i class="icon ion-android-close"></i> </a>
+                                    <ul class="search-main-menu">
+                                       <li>
+                                          <form class="manga-search-form search-form ajax" action="https://saytruyen.net/search" method="get">
+                                             <input class="manga-search-field ui-autocomplete-input" type="text" placeholder="Search..." name="s" value="" autocomplete="off">
+                                             <input type="hidden" name="post_type" value="wp-manga"> <i class="fas fa-search"></i>
+                                             <div class="loader-inner ball-clip-rotate-multiple">
+                                                <div></div>
+                                                <div></div>
+                                             </div>
+                                             <input type="submit" value="Search">
+                                             <ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul>
+                                          </form>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="c-togle__menu">
+                              <button type="button" class="menu_icon__open">
+                              <span></span> <span></span> <span></span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mobile-menu off-canvas">
+            <div class="close-nav">
+               <button class="menu_icon__close">
+               <span></span> <span></span>
+               </button>
+            </div>
+            <div class="c-modal_item">
+               <span class="c-modal_sign-in">
+               <a href="#" data-toggle="modal" data-target="#form-login" class="btn-active-modal">Đăng Nhập</a>
+               </span>
+               <span class="c-modal_sign-up">
+               <a href="javascript:void(0)" data-toggle="modal" data-target="#form-sign-up" class="btn-active-modal">Đăng Kí</a>
+               </span>
+            </div>
+            <nav class="off-menu">
+               <ul id="menu-main-menu-1" class="nav navbar-nav main-navbar">
+                  <li>
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://saytruyen.net/genre%27" tppabs="https://saytruyen.net/genre" class="menu-link  main-menu-link"> Thể Loại </a>
+                  </li>
+                  <li>
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/completed  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/completed%27" tppabs="https://saytruyen.net/completed" class="menu-link  main-menu-link"> Hoàn Thành </a>
+                  </li>
+                  <li>
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/history  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/history%27" tppabs="https://saytruyen.net/history" class="menu-link  main-menu-link"> Lịch Sử </a>
+                  </li>
+                  <li>
+                     <a href="javascript:void(0)" data-toggle="modal" data-target="#form-login">Đang theo dõi</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <div class="sub-header-nav with-border">
+            <div class="container">
+               <div class="sub-nav_content">
+                  <ul class="sub-nav_list list-inline second-menu">
+                     <li>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/genre/manhwa  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/manhwa%27" tppabs="https://saytruyen.net/genre/manhwa">Manhwa</a>
+                     </li>
+                     <li>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/genre/manga  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/manga%27" tppabs="https://saytruyen.net/genre/manga">Manga</a>
+                     </li>
+                     <li>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/genre/manhua  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/manhua%27" tppabs="https://saytruyen.net/genre/manhua">Manhua</a>
+                     </li>
+                     <li>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/genre/romance  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/romance%27" tppabs="https://saytruyen.net/genre/romance">Romance</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="c-modal_item">
+                  <a href="javascript:void(0)" data-toggle="modal" data-target="#form-login" class="btn-active-modal">Đăng Nhập</a>
+                  <a href="javascript:void(0)" data-toggle="modal" data-target="#form-sign-up" class="btn-active-modal">Đăng Kí</a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="slide-home">
+         <div class="container">
+            <div class="row">
+               <div class="c-blog__heading style-2 font-heading ">
+                  <h2 class="h4"><i class="far fa-sun"></i></i>
+                     Truyện hot trong ngày
+                  </h2>
+               </div>
+               <div id="slide-top" class="owl-carousel">
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki.html%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Sân Cỏ Chiến Ký">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki.html%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki.html">Sân Cỏ Chiến Ký</a></div>
+                        <div class="post-on font-meta">
+                           <span>10 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki/chuong-37  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki/chuong-37%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki/chuong-37">Chapter 37</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html%27" tppabs="https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Cô gái từ ứng dụng nhắn tin ngẫu nhiên">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html%27" tppabs="https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html">Cô gái từ ứng dụng nhắn tin ngẫu nhiên</a></div>
+                        <div class="post-on font-meta">
+                           <span>1 ngày trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien/chuong-152  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien/chuong-152%27" tppabs="https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien/chuong-152">Chapter 152</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany.html%27" tppabs="https://saytruyen.net/truyen-satanophany.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Satanophany">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany.html%27" tppabs="https://saytruyen.net/truyen-satanophany.html">Satanophany</a></div>
+                        <div class="post-on font-meta">
+                           <span>14 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany/chuong-169  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany/chuong-169%27" tppabs="https://saytruyen.net/truyen-satanophany/chuong-169">Chapter 169</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html">Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ</a></div>
+                        <div class="post-on font-meta">
+                           <span>22 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6">Chapter 6</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html">Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm</a></div>
+                        <div class="post-on font-meta">
+                           <span>17 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27">Chapter 27</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Tu Tiên Giả Đại Chiến Siêu Năng Lực">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html">Tu Tiên Giả Đại Chiến Siêu Năng Lực</a></div>
+                        <div class="post-on font-meta">
+                           <span>11 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139">Chapter 139</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac.html%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Đảo Hải Tặc">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac.html%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac.html">Đảo Hải Tặc</a></div>
+                        <div class="post-on font-meta">
+                           <span>11 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac/chuong-1033  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac/chuong-1033%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac/chuong-1033">Chapter 1033</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="img-item">
+                        <span class="manga-title-badges hot">HOT</span>
+                        <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach.html%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach.html">
+                        <img width="125" height="180" src="assets/images/demo.jpeg"  alt="Đệ Nhất Danh Sách">
+                        </a>
+                     </div>
+                     <div class="info-item">
+                        <div class="line-2 font-weight-bold"><a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach.html%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach.html">Đệ Nhất Danh Sách</a></div>
+                        <div class="post-on font-meta">
+                           <span>11 giờ trước</span>
+                        </div>
+                        <div class="chapter-item">
+                           <span class="chapter">
+                           <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25">Chapter 25</a>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="site-content">
+         <div class="container" style="margin-top: 50px">
+            <div class="row ">
+               <div class="main-col col-md-8 col-sm-8">
+                  <div class="c-blog__heading style-2 font-heading ">
+                     <h2 class="h4">
+                        <i class="fas fa-star"></i></i>
+                        Truyện Mới Cập Nhật
+                     </h2>
+                  </div>
+                  <div class="manga-content">
+                     <div class="row px-2 list-item">
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ao-no-miburo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ao-no-miburo.html%27" tppabs="https://saytruyen.net/truyen-ao-no-miburo.html" title="Ao no Miburo">
+                                 <img width="175" height="238" class="img-responsive" src="assets/images/demo.jpeg"  title="Ao no Miburo" alt="ao-no-miburo">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ao-no-miburo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ao-no-miburo.html%27" tppabs="https://saytruyen.net/truyen-ao-no-miburo.html">Ao no Miburo</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ao-no-miburo/chuong-7  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ao-no-miburo/chuong-7%27" tppabs="https://saytruyen.net/truyen-ao-no-miburo/chuong-7" class="btn-link"> Chapter 7 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki.html%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki.html" title="Sân Cỏ Chiến Ký">
+                                 <img width="175" height="238" class="img-responsive" src="assets/images/demo.jpeg" title="Sân Cỏ Chiến Ký" alt="san-co-chien-ki">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki.html%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki.html">Sân Cỏ Chiến Ký</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki/chuong-37  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki/chuong-37%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki/chuong-37" class="btn-link"> Chapter 37 </a>
+                                       </span>
+                                       <span class="post-on font-meta">10 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-la-chien-than-vo-song.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-la-chien-than-vo-song.html%27" tppabs="https://saytruyen.net/truyen-ta-la-chien-than-vo-song.html" title="Ta Là Chiến Thần Vô Song">
+                                 <img width="175" height="238" class="img-responsive" src="assets/images/demo.jpeg"  title="Ta Là Chiến Thần Vô Song" alt="ta-la-chien-than-vo-song">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-la-chien-than-vo-song.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-la-chien-than-vo-song.html%27" tppabs="https://saytruyen.net/truyen-ta-la-chien-than-vo-song.html">Ta Là Chiến Thần Vô Song</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-la-chien-than-vo-song/chuong-155  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-la-chien-than-vo-song/chuong-155%27" tppabs="https://saytruyen.net/truyen-ta-la-chien-than-vo-song/chuong-155" class="btn-link"> Chapter 155 </a>
+                                       </span>
+                                       <span class="post-on font-meta">11 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach.html%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach.html" title="Đệ Nhất Danh Sách">
+                                 <img width="175" height="238" class="img-responsive" src="assets/images/demo.jpeg"  title="Đệ Nhất Danh Sách" alt="de-nhat-danh-sach">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach.html%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach.html">Đệ Nhất Danh Sách</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25" class="btn-link"> Chapter 25 </a>
+                                       </span>
+                                       <span class="post-on font-meta">11 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-thanh-khu.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-thanh-khu.html%27" tppabs="https://saytruyen.net/truyen-thanh-khu.html" title="Thánh Khư">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Thánh Khư" alt="thanh-khu">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-thanh-khu.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-thanh-khu.html%27" tppabs="https://saytruyen.net/truyen-thanh-khu.html">Thánh Khư</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-thanh-khu/chuong-147  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-thanh-khu/chuong-147%27" tppabs="https://saytruyen.net/truyen-thanh-khu/chuong-147" class="btn-link"> Chapter 147 </a>
+                                       </span>
+                                       <span class="post-on font-meta">11 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia.html%27" tppabs="https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia.html" title="Đao Hoàng Tứ Thiếu Gia">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Đao Hoàng Tứ Thiếu Gia" alt="dao-hoang-tu-thieu-gia">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia.html%27" tppabs="https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia.html">Đao Hoàng Tứ Thiếu Gia</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia/chuong-7  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia/chuong-7%27" tppabs="https://saytruyen.net/truyen-dao-hoang-tu-thieu-gia/chuong-7" class="btn-link"> Chapter 7 </a>
+                                       </span>
+                                       <span class="post-on font-meta">11 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html" title="Tu Tiên Giả Đại Chiến Siêu Năng Lực">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Tu Tiên Giả Đại Chiến Siêu Năng Lực" alt="tu-tien-gia-dai-chien-sieu-nang-luc">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html">Tu Tiên Giả Đại Chiến Siêu Năng Lực</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139" class="btn-link"> Chapter 139 </a>
+                                       </span>
+                                       <span class="post-on font-meta">11 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac.html%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac.html" title="Đảo Hải Tặc">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Đảo Hải Tặc" alt="dao-hai-tac">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac.html%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac.html">Đảo Hải Tặc</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac/chuong-1033  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac/chuong-1033%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac/chuong-1033" class="btn-link"> Chapter 1033 </a>
+                                       </span>
+                                       <span class="post-on font-meta">11 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso.html%27" tppabs="https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso.html" title="Karami Zakari: Boku No Honto To Kimi No Uso">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Karami Zakari: Boku No Honto To Kimi No Uso" alt="karami-zakari-boku-no-honto-to-kimi-no-uso">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso.html%27" tppabs="https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso.html">Karami Zakari: Boku No Honto To Kimi No Uso</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso/chuong-8  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso/chuong-8%27" tppabs="https://saytruyen.net/truyen-karami-zakari-boku-no-honto-to-kimi-no-uso/chuong-8" class="btn-link"> Chapter 8 </a>
+                                       </span>
+                                       <span class="post-on font-meta">12 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany.html%27" tppabs="https://saytruyen.net/truyen-satanophany.html" title="Satanophany">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Satanophany" alt="satanophany">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany.html%27" tppabs="https://saytruyen.net/truyen-satanophany.html">Satanophany</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany/chuong-169  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany/chuong-169%27" tppabs="https://saytruyen.net/truyen-satanophany/chuong-169" class="btn-link"> Chapter 169 </a>
+                                       </span>
+                                       <span class="post-on font-meta">14 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu.html%27" tppabs="https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu.html" title="Người Đàn Ông Thực Thụ">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Người Đàn Ông Thực Thụ" alt="nguoi-dan-ong-thuc-thu">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu.html%27" tppabs="https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu.html">Người Đàn Ông Thực Thụ</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu/chuong-61  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu/chuong-61%27" tppabs="https://saytruyen.net/truyen-nguoi-dan-ong-thuc-thu/chuong-61" class="btn-link"> Chapter 61 </a>
+                                       </span>
+                                       <span class="post-on font-meta">14 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim.html%27" tppabs="https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim.html" title="Bác Sĩ Trùng Sinh Về Murim">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Bác Sĩ Trùng Sinh Về Murim" alt="bac-si-trung-sinh-ve-murim">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim.html%27" tppabs="https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim.html">Bác Sĩ Trùng Sinh Về Murim</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim/chuong-63  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim/chuong-63%27" tppabs="https://saytruyen.net/truyen-bac-si-trung-sinh-ve-murim/chuong-63" class="btn-link"> Chapter 63 </a>
+                                       </span>
+                                       <span class="post-on font-meta">16 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi.html%27" tppabs="https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi.html" title="Trở Lại Thành Người Chơi">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Trở Lại Thành Người Chơi" alt="tro-lai-thanh-nguoi-choi">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi.html%27" tppabs="https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi.html">Trở Lại Thành Người Chơi</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi/chuong-53  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi/chuong-53%27" tppabs="https://saytruyen.net/truyen-tro-lai-thanh-nguoi-choi/chuong-53" class="btn-link"> Chapter 53 </a>
+                                       </span>
+                                       <span class="post-on font-meta">16 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999.html%27" tppabs="https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999.html" title="Bị phản bội bởi đồng đội và sỡ hữu [Gacha không giới hạn] LV.9999">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Bị phản bội bởi đồng đội và sỡ hữu [Gacha không giới hạn] LV.9999" alt="bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999.html%27" tppabs="https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999.html">Bị phản bội bởi đồng đội và sỡ hữu [Gacha không giới hạn] LV.9999</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999/chuong-22  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999/chuong-22%27" tppabs="https://saytruyen.net/truyen-bi-phan-boi-boi-dong-doi-va-so-huu-gacha-khong-gioi-han-lv-9999/chuong-22" class="btn-link"> Chapter 22 </a>
+                                       </span>
+                                       <span class="post-on font-meta">16 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-the-dungeon-master.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-the-dungeon-master.html%27" tppabs="https://saytruyen.net/truyen-the-dungeon-master.html" title="Bá Vương Hầm Ngục">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Bá Vương Hầm Ngục" alt="the-dungeon-master">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-the-dungeon-master.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-the-dungeon-master.html%27" tppabs="https://saytruyen.net/truyen-the-dungeon-master.html">Bá Vương Hầm Ngục</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-the-dungeon-master/chuong-73  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-the-dungeon-master/chuong-73%27" tppabs="https://saytruyen.net/truyen-the-dungeon-master/chuong-73" class="btn-link"> Chapter 73 </a>
+                                       </span>
+                                       <span class="post-on font-meta">17 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html" title="Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" alt="su-tro-lai-cua-phap-su-hac-am-sau-66666-nam">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html">Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27" class="btn-link"> Chapter 27 </a>
+                                       </span>
+                                       <span class="post-on font-meta">17 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su.html%27" tppabs="https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su.html" title="Nhân Vật Chính Mạnh Nhất Lịch Sử">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Nhân Vật Chính Mạnh Nhất Lịch Sử" alt="nhan-vat-chinh-manh-nhat-lich-su">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su.html%27" tppabs="https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su.html">Nhân Vật Chính Mạnh Nhất Lịch Sử</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su/chuong-51  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su/chuong-51%27" tppabs="https://saytruyen.net/truyen-nhan-vat-chinh-manh-nhat-lich-su/chuong-51" class="btn-link"> Chapter 51 </a>
+                                       </span>
+                                       <span class="post-on font-meta">18 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-chua-te-vuc-tham.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-chua-te-vuc-tham.html%27" tppabs="https://saytruyen.net/truyen-chua-te-vuc-tham.html" title="Chúa Tể Vực Thẳm">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" title="Chúa Tể Vực Thẳm" alt="chua-te-vuc-tham">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-chua-te-vuc-tham.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-chua-te-vuc-tham.html%27" tppabs="https://saytruyen.net/truyen-chua-te-vuc-tham.html">Chúa Tể Vực Thẳm</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-chua-te-vuc-tham/chuong-9  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-chua-te-vuc-tham/chuong-9%27" tppabs="https://saytruyen.net/truyen-chua-te-vuc-tham/chuong-9" class="btn-link"> Chapter 9 </a>
+                                       </span>
+                                       <span class="post-on font-meta">18 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do.html%27" tppabs="https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do.html" title="Điều còn khó hơn cả việc giải đố">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Điều còn khó hơn cả việc giải đố" alt="dieu-con-kho-hon-ca-viec-giai-do">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do.html%27" tppabs="https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do.html">Điều còn khó hơn cả việc giải đố</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do/chuong-5  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do/chuong-5%27" tppabs="https://saytruyen.net/truyen-dieu-con-kho-hon-ca-viec-giai-do/chuong-5" class="btn-link"> Chapter 5 </a>
+                                       </span>
+                                       <span class="post-on font-meta">19 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nghich-thien-ta-than.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nghich-thien-ta-than.html%27" tppabs="https://saytruyen.net/truyen-nghich-thien-ta-than.html" title="Nghịch Thiên Tà Thần">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Nghịch Thiên Tà Thần" alt="nghich-thien-ta-than">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nghich-thien-ta-than.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nghich-thien-ta-than.html%27" tppabs="https://saytruyen.net/truyen-nghich-thien-ta-than.html">Nghịch Thiên Tà Thần</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-nghich-thien-ta-than/chuong-429  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-nghich-thien-ta-than/chuong-429%27" tppabs="https://saytruyen.net/truyen-nghich-thien-ta-than/chuong-429" class="btn-link"> Chapter 429 </a>
+                                       </span>
+                                       <span class="post-on font-meta">20 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no.html%27" tppabs="https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no.html" title="Bản Kiếm Tiên Tuyệt Không Làm Nô">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Bản Kiếm Tiên Tuyệt Không Làm Nô" alt="ban-kiem-tien-tuyet-khong-lam-no">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no.html%27" tppabs="https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no.html">Bản Kiếm Tiên Tuyệt Không Làm Nô</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no/chuong-35  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no/chuong-35%27" tppabs="https://saytruyen.net/truyen-ban-kiem-tien-tuyet-khong-lam-no/chuong-35" class="btn-link"> Chapter 35 </a>
+                                       </span>
+                                       <span class="post-on font-meta">20 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dang-nhap-murim.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dang-nhap-murim.html%27" tppabs="https://saytruyen.net/truyen-dang-nhap-murim.html" title="Đăng nhập Murim">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Đăng nhập Murim" alt="dang-nhap-murim">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dang-nhap-murim.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dang-nhap-murim.html%27" tppabs="https://saytruyen.net/truyen-dang-nhap-murim.html">Đăng nhập Murim</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dang-nhap-murim/chuong-90  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dang-nhap-murim/chuong-90%27" tppabs="https://saytruyen.net/truyen-dang-nhap-murim/chuong-90" class="btn-link"> Chapter 90 </a>
+                                       </span>
+                                       <span class="post-on font-meta">22 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html" title="Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ" alt="ke-ngoai-lai-o-vung-dat-bi-ruong-bo">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html">Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6" class="btn-link"> Chapter 6 </a>
+                                       </span>
+                                       <span class="post-on font-meta">22 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-vs-evil.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-vs-evil.html%27" tppabs="https://saytruyen.net/truyen-vs-evil.html" title="VS EVIL">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  title="VS EVIL" alt="vs-evil">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-vs-evil.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-vs-evil.html%27" tppabs="https://saytruyen.net/truyen-vs-evil.html">VS EVIL</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-vs-evil/chuong-6  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-vs-evil/chuong-6%27" tppabs="https://saytruyen.net/truyen-vs-evil/chuong-6" class="btn-link"> Chapter 6 </a>
+                                       </span>
+                                       <span class="post-on font-meta">22 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-quyen-ba-thien-ha.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-quyen-ba-thien-ha.html%27" tppabs="https://saytruyen.net/truyen-quyen-ba-thien-ha.html" title="Quyền Bá Thiên Hạ">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="quyen-ba-thien-ha.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/quyen-ba-thien-ha.png" title="Quyền Bá Thiên Hạ" alt="quyen-ba-thien-ha">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-quyen-ba-thien-ha.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-quyen-ba-thien-ha.html%27" tppabs="https://saytruyen.net/truyen-quyen-ba-thien-ha.html">Quyền Bá Thiên Hạ</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-quyen-ba-thien-ha/chuong-437  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-quyen-ba-thien-ha/chuong-437%27" tppabs="https://saytruyen.net/truyen-quyen-ba-thien-ha/chuong-437" class="btn-link"> Chapter 437 </a>
+                                       </span>
+                                       <span class="post-on font-meta">23 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-vampire-chan-cant-suck-properly.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-vampire-chan-cant-suck-properly.html%27" tppabs="https://saytruyen.net/truyen-vampire-chan-cant-suck-properly.html" title="Vampire-chan Can&#039;t Suck Properly">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="619a406fd70cc001.jpg" tppabs="https://saytruyen.net/storage/images/cover/619a406fd70cc001.jpg" title="Vampire-chan Can&#039;t Suck Properly" alt="vampire-chan-cant-suck-properly">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-vampire-chan-cant-suck-properly.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-vampire-chan-cant-suck-properly.html%27" tppabs="https://saytruyen.net/truyen-vampire-chan-cant-suck-properly.html">Vampire-chan Can&#039;t Suck Properly</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-vampire-chan-cant-suck-properly/chuong-11  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-vampire-chan-cant-suck-properly/chuong-11%27" tppabs="https://saytruyen.net/truyen-vampire-chan-cant-suck-properly/chuong-11" class="btn-link"> Chapter 11 </a>
+                                       </span>
+                                       <span class="post-on font-meta">23 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> -->
+                        <!-- <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-pha-he-ma-dao-si.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-pha-he-ma-dao-si.html%27" tppabs="https://saytruyen.net/truyen-pha-he-ma-dao-si.html" title="Ma Đạo Phả Hệ">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="63bc96dadeac61f894fc0d264a24b75d.jpg" tppabs="https://saytruyen.net/storage/images/cover/63bc96dadeac61f894fc0d264a24b75d.jpg" title="Ma Đạo Phả Hệ" alt="pha-he-ma-dao-si">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-pha-he-ma-dao-si.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-pha-he-ma-dao-si.html%27" tppabs="https://saytruyen.net/truyen-pha-he-ma-dao-si.html">Ma Đạo Phả Hệ</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-pha-he-ma-dao-si/chuong-17  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-pha-he-ma-dao-si/chuong-17%27" tppabs="https://saytruyen.net/truyen-pha-he-ma-dao-si/chuong-17" class="btn-link"> Chapter 17 </a>
+                                       </span>
+                                       <span class="post-on font-meta">23 giờ trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-kiem-nghich-thuong-khung.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-kiem-nghich-thuong-khung.html%27" tppabs="https://saytruyen.net/truyen-kiem-nghich-thuong-khung.html" title="Kiếm Nghịch Thương Khung">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="kiem-nghich-thuong-khung.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/kiem-nghich-thuong-khung.png" title="Kiếm Nghịch Thương Khung" alt="kiem-nghich-thuong-khung">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-kiem-nghich-thuong-khung.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-kiem-nghich-thuong-khung.html%27" tppabs="https://saytruyen.net/truyen-kiem-nghich-thuong-khung.html">Kiếm Nghịch Thương Khung</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-kiem-nghich-thuong-khung/chuong-379  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-kiem-nghich-thuong-khung/chuong-379%27" tppabs="https://saytruyen.net/truyen-kiem-nghich-thuong-khung/chuong-379" class="btn-link"> Chapter 379 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien.html%27" tppabs="https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien.html" title="Trọng Sinh Đô Thị Tu Tiên">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="trong-sinh-do-thi-tu-tien.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/trong-sinh-do-thi-tu-tien.png" title="Trọng Sinh Đô Thị Tu Tiên" alt="trong-sinh-do-thi-tu-tien">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien.html%27" tppabs="https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien.html">Trọng Sinh Đô Thị Tu Tiên</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien/chuong-676  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien/chuong-676%27" tppabs="https://saytruyen.net/truyen-trong-sinh-do-thi-tu-tien/chuong-676" class="btn-link"> Chapter 676 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam.html%27" tppabs="https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam.html" title="Ta Luyện Khí Ba Ngàn Năm">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="ta-luyen-khi-ba-ngan-nam.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/ta-luyen-khi-ba-ngan-nam.png" title="Ta Luyện Khí Ba Ngàn Năm" alt="ta-luyen-khi-ba-ngan-nam">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam.html%27" tppabs="https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam.html">Ta Luyện Khí Ba Ngàn Năm</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam/chuong-239  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam/chuong-239%27" tppabs="https://saytruyen.net/truyen-ta-luyen-khi-ba-ngan-nam/chuong-239" class="btn-link"> Chapter 239 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-khat-vong-troi-day.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-khat-vong-troi-day.html%27" tppabs="https://saytruyen.net/truyen-khat-vong-troi-day.html" title="Khát Vọng Trỗi Dậy">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="khat-vong-troi-day.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/khat-vong-troi-day.png" title="Khát Vọng Trỗi Dậy" alt="khat-vong-troi-day">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-khat-vong-troi-day.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-khat-vong-troi-day.html%27" tppabs="https://saytruyen.net/truyen-khat-vong-troi-day.html">Khát Vọng Trỗi Dậy</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-khat-vong-troi-day/chuong-85  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-khat-vong-troi-day/chuong-85%27" tppabs="https://saytruyen.net/truyen-khat-vong-troi-day/chuong-85" class="btn-link"> Chapter 85 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-la-ta-de.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-la-ta-de.html%27" tppabs="https://saytruyen.net/truyen-ta-la-ta-de.html" title="Ta Là Tà Đế">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="ta-la-ta-de.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/ta-la-ta-de.png" title="Ta Là Tà Đế" alt="ta-la-ta-de">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-la-ta-de.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-la-ta-de.html%27" tppabs="https://saytruyen.net/truyen-ta-la-ta-de.html">Ta Là Tà Đế</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-la-ta-de/chuong-208  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-la-ta-de/chuong-208%27" tppabs="https://saytruyen.net/truyen-ta-la-ta-de/chuong-208" class="btn-link"> Chapter 208 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung.html%27" tppabs="https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung.html" title="Kĩ Nguyên Của Anh Hùng">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="ki-nguyen-cua-anh-hung.png" tppabs="https://saytruyen.net/storage/images/cover/ki-nguyen-cua-anh-hung.png" title="Kĩ Nguyên Của Anh Hùng" alt="ki-nguyen-cua-anh-hung">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung.html%27" tppabs="https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung.html">Kĩ Nguyên Của Anh Hùng</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung/chuong-71  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung/chuong-71%27" tppabs="https://saytruyen.net/truyen-ki-nguyen-cua-anh-hung/chuong-71" class="btn-link"> Chapter 71 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tien-kiem-bat-bai.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tien-kiem-bat-bai.html%27" tppabs="https://saytruyen.net/truyen-tien-kiem-bat-bai.html" title="Kiếm Sĩ Bất Bại">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="435968096a4bccc26a448af70e1b1df9.jpg" tppabs="https://saytruyen.net/storage/images/cover/435968096a4bccc26a448af70e1b1df9.jpg" title="Kiếm Sĩ Bất Bại" alt="tien-kiem-bat-bai">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tien-kiem-bat-bai.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tien-kiem-bat-bai.html%27" tppabs="https://saytruyen.net/truyen-tien-kiem-bat-bai.html">Kiếm Sĩ Bất Bại</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tien-kiem-bat-bai/chuong-93  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tien-kiem-bat-bai/chuong-93%27" tppabs="https://saytruyen.net/truyen-tien-kiem-bat-bai/chuong-93" class="btn-link"> Chapter 93 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-trigger.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-trigger.html%27" tppabs="https://saytruyen.net/truyen-trigger.html" title="Trigger">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="b6e6a4dcea2db74d0caf58cff76e5b12.jpg" tppabs="https://saytruyen.net/storage/images/cover/b6e6a4dcea2db74d0caf58cff76e5b12.jpg" title="Trigger" alt="trigger">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-trigger.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-trigger.html%27" tppabs="https://saytruyen.net/truyen-trigger.html">Trigger</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-trigger/chuong-24  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-trigger/chuong-24%27" tppabs="https://saytruyen.net/truyen-trigger/chuong-24" class="btn-link"> Chapter 24 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-co-mot-son-trai.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-co-mot-son-trai.html%27" tppabs="https://saytruyen.net/truyen-ta-co-mot-son-trai.html" title="Ta Có Một Sơn Trại">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="582f458d527087372db22072c1461db4.jpg" tppabs="https://saytruyen.net/storage/images/cover/582f458d527087372db22072c1461db4.jpg" title="Ta Có Một Sơn Trại" alt="ta-co-mot-son-trai">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-co-mot-son-trai.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-co-mot-son-trai.html%27" tppabs="https://saytruyen.net/truyen-ta-co-mot-son-trai.html">Ta Có Một Sơn Trại</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ta-co-mot-son-trai/chuong-166  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ta-co-mot-son-trai/chuong-166%27" tppabs="https://saytruyen.net/truyen-ta-co-mot-son-trai/chuong-166" class="btn-link"> Chapter 166 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-thuong-nguyen-do.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-thuong-nguyen-do.html%27" tppabs="https://saytruyen.net/truyen-thuong-nguyen-do.html" title="Thương Nguyên Đồ">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="77f567fef743ce8feb57771fa7809989.jpg" tppabs="https://saytruyen.net/storage/images/cover/77f567fef743ce8feb57771fa7809989.jpg" title="Thương Nguyên Đồ" alt="thuong-nguyen-do">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-thuong-nguyen-do.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-thuong-nguyen-do.html%27" tppabs="https://saytruyen.net/truyen-thuong-nguyen-do.html">Thương Nguyên Đồ</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-thuong-nguyen-do/chuong-193  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-thuong-nguyen-do/chuong-193%27" tppabs="https://saytruyen.net/truyen-thuong-nguyen-do/chuong-193" class="btn-link"> Chapter 193 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-chien-binh-quat-cuong.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-chien-binh-quat-cuong.html%27" tppabs="https://saytruyen.net/truyen-chien-binh-quat-cuong.html" title="Chiến Binh Quật Cường">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="89780c4f86a6d6b95e01de693ee03e00.jpg" tppabs="https://saytruyen.net/storage/images/cover/89780c4f86a6d6b95e01de693ee03e00.jpg" title="Chiến Binh Quật Cường" alt="chien-binh-quat-cuong">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-chien-binh-quat-cuong.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-chien-binh-quat-cuong.html%27" tppabs="https://saytruyen.net/truyen-chien-binh-quat-cuong.html">Chiến Binh Quật Cường</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-chien-binh-quat-cuong/chuong-55  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-chien-binh-quat-cuong/chuong-55%27" tppabs="https://saytruyen.net/truyen-chien-binh-quat-cuong/chuong-55" class="btn-link"> Chapter 55 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot.html%27" tppabs="https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot.html" title="Ẩn Hôn 100%: Chọc Tức Vợ Yêu Mua Một Tặng Một">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="9b6f802190b362569ba3e590a487d87e.jpg" tppabs="https://saytruyen.net/storage/images/cover/9b6f802190b362569ba3e590a487d87e.jpg" title="Ẩn Hôn 100%: Chọc Tức Vợ Yêu Mua Một Tặng Một" alt="an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot.html%27" tppabs="https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot.html">Ẩn Hôn 100%: Chọc Tức Vợ Yêu Mua Một Tặng Một</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot/chuong-347  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot/chuong-347%27" tppabs="https://saytruyen.net/truyen-an-hon-100-choc-tuc-vo-yeu-mua-mot-tang-mot/chuong-347" class="btn-link"> Chapter 347 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-6 col-md-3 badge-pos-1 px-2">
+                           <div class="page-item-detail">
+                              <div class="item-thumb hover-details c-image-hover">
+                                 <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat.html%27" tppabs="https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat.html" title="Con Đường Võ Giả Của Phế Vật">
+                                 <img width="175" height="238" class="img-responsive lazyload" data-src="con-duong-vo-gia-cua-phe-vat.png.jpg" tppabs="https://saytruyen.net/storage/images/cover/con-duong-vo-gia-cua-phe-vat.png" title="Con Đường Võ Giả Của Phế Vật" alt="con-duong-vo-gia-cua-phe-vat">
+                                 </a>
+                              </div>
+                              <div class="item-summary">
+                                 <div class="post-title font-title">
+                                    <h3 class="line-2 pt-2">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat.html%27" tppabs="https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat.html">Con Đường Võ Giả Của Phế Vật</a>
+                                    </h3>
+                                 </div>
+                                 <p></p>
+                                 <div class="list-chapter">
+                                    <div class="chapter-item ">
+                                       <span class="chapter font-meta">
+                                       <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat/chuong-28  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat/chuong-28%27" tppabs="https://saytruyen.net/truyen-con-duong-vo-gia-cua-phe-vat/chuong-28" class="btn-link"> Chapter 28 </a>
+                                       </span>
+                                       <span class="post-on font-meta">1 ngày trước</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> -->
+                        <ul class="pager">
+                           <li class="disabled"><span>«</span></li>
+                           <li class="active"><span>1</span></li>
+                           <li><a href="javascript:if(confirm(%27https://saytruyen.net/?page=2  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/?page=2%27" tppabs="https://saytruyen.net/?page=2">2</a></li>
+                           <li><a href="javascript:if(confirm(%27https://saytruyen.net/?page=3  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/?page=3%27" tppabs="https://saytruyen.net/?page=3">3</a></li>
+                           <li><span>...</span></li>
+                           <li class="hidden-xs"><a href="javascript:if(confirm(%27https://saytruyen.net/?page=130  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/?page=130%27" tppabs="https://saytruyen.net/?page=130">130</a></li>
+                           <li><a href="javascript:if(confirm(%27https://saytruyen.net/?page=2  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/?page=2%27" tppabs="https://saytruyen.net/?page=2" rel="next">»</a></li>
+                        </ul>
+                        <style type="text/css">
+                           .pager {
+                           margin: 0;
+                           padding: 0;
+                           clear: both;
+                           width: 100%;
+                           text-align: center;
+                           }
+                           ul.pager li {
+                           display: inline-block;
+                           list-style: none;
+                           margin: 0 2px;
+                           }
+                           ul.pager li:hover a{
+                           background-color: #f47268;
+                           }
+                           ul.pager li:hover a {
+                           color: white;
+                           }
+                           ul.pager li.active span {
+                           display: block;
+                           padding: 8px 15px;
+                           background-color: #f47268;
+                           color: white;
+                           }
+                           ul.pager li a {
+                           color: #898989;
+                           text-decoration: none;
+                           font-weight: 500;
+                           display: block;
+                           padding: 8px 15px;
+                           cursor: pointer;
+                           background: #ebebeb;
+                           }
+                        </style>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar col-md-4 col-sm-4 ">
+                  <div class="history popular">
+                     <div class="widget-heading">
+                        <h5 class="heading">Lịch sử</h5>
+                     </div>
+                     <div class="widget-content history-content">
+                        <span hidden>https://saytruyen.net/history</span>
+                     </div>
+                  </div>
+                  <br>
+                  <div class="popular">
+                     <div class="widget-heading">
+                        <h5 class="heading">Truyện Hot</h5>
+                     </div>
+                     <div class="widget-content">
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Sân Cỏ Chiến Ký" href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki.html%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/26b2f7f012a70f208761ea0184adaea7.jpg" loading="lazy" title="Sân Cỏ Chiến Ký" alt="san-co-chien-ki">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Sân Cỏ Chiến Ký" href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki.html%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki.html">Sân Cỏ Chiến Ký</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-san-co-chien-ki/chuong-37  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-san-co-chien-ki/chuong-37%27" tppabs="https://saytruyen.net/truyen-san-co-chien-ki/chuong-37" class="btn-link">Chapter 37</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    10 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Cô gái từ ứng dụng nhắn tin ngẫu nhiên" href="javascript:if(confirm(%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html%27" tppabs="https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/af140f4b6a38ad25270f93f60ab75f8b.jpg" loading="lazy" title="Cô gái từ ứng dụng nhắn tin ngẫu nhiên" alt="co-gai-tu-ung-dung-nhan-tin-ngau-nhien">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Cô gái từ ứng dụng nhắn tin ngẫu nhiên" href="javascript:if(confirm(%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html%27" tppabs="https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien.html">Cô gái từ ứng dụng nhắn tin ngẫu nhiên</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien/chuong-152  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien/chuong-152%27" tppabs="https://saytruyen.net/truyen-co-gai-tu-ung-dung-nhan-tin-ngau-nhien/chuong-152" class="btn-link">Chapter 152</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    1 ngày trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Satanophany" href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany.html%27" tppabs="https://saytruyen.net/truyen-satanophany.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/cb9f921b1925b4c4c05683adf97e40ac.jpg" loading="lazy" title="Satanophany" alt="satanophany">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Satanophany" href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany.html%27" tppabs="https://saytruyen.net/truyen-satanophany.html">Satanophany</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-satanophany/chuong-169  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-satanophany/chuong-169%27" tppabs="https://saytruyen.net/truyen-satanophany/chuong-169" class="btn-link">Chapter 169</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    14 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ" href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/2174951749_1637892003.jpg" loading="lazy" title="Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ" alt="ke-ngoai-lai-o-vung-dat-bi-ruong-bo">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ" href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo.html">Kẻ Ngoại Lai Ở Vùng Đất Bị Ruồng Bỏ</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6%27" tppabs="https://saytruyen.net/truyen-ke-ngoai-lai-o-vung-dat-bi-ruong-bo/chuong-6" class="btn-link">Chapter 6</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    22 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm" href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/5dde6005763f2468cedb7e708635c621.jpg" loading="lazy" title="Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm" alt="su-tro-lai-cua-phap-su-hac-am-sau-66666-nam">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm" href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam.html">Sư Trở Lại Của Pháp Sư Hắc Ám Sau 66666 Năm</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27%27" tppabs="https://saytruyen.net/truyen-su-tro-lai-cua-phap-su-hac-am-sau-66666-nam/chuong-27" class="btn-link">Chapter 27</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    17 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Tu Tiên Giả Đại Chiến Siêu Năng Lực" href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/tu-tien-gia-dai-chien-sieu-nang-luc.png" loading="lazy" title="Tu Tiên Giả Đại Chiến Siêu Năng Lực" alt="tu-tien-gia-dai-chien-sieu-nang-luc">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Tu Tiên Giả Đại Chiến Siêu Năng Lực" href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc.html">Tu Tiên Giả Đại Chiến Siêu Năng Lực</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139%27" tppabs="https://saytruyen.net/truyen-tu-tien-gia-dai-chien-sieu-nang-luc/chuong-139" class="btn-link">Chapter 139</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    11 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Đảo Hải Tặc" href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac.html%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/one-piece-8211-dao-hai-tac.png" loading="lazy" title="Đảo Hải Tặc" alt="dao-hai-tac">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Đảo Hải Tặc" href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac.html%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac.html">Đảo Hải Tặc</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dao-hai-tac/chuong-1033  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dao-hai-tac/chuong-1033%27" tppabs="https://saytruyen.net/truyen-dao-hai-tac/chuong-1033" class="btn-link">Chapter 1033</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    11 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Đệ Nhất Danh Sách" href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach.html%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/de-nhat-danh-sach.png" loading="lazy" title="Đệ Nhất Danh Sách" alt="de-nhat-danh-sach">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Đệ Nhất Danh Sách" href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach.html%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach.html">Đệ Nhất Danh Sách</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25%27" tppabs="https://saytruyen.net/truyen-de-nhat-danh-sach/chuong-25" class="btn-link">Chapter 25</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    11 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Đăng nhập Murim" href="javascript:if(confirm(%27https://saytruyen.net/truyen-dang-nhap-murim.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dang-nhap-murim.html%27" tppabs="https://saytruyen.net/truyen-dang-nhap-murim.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/a04e9968598be9acb98a21f950f31d5c.jpg" loading="lazy" title="Đăng nhập Murim" alt="dang-nhap-murim">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Đăng nhập Murim" href="javascript:if(confirm(%27https://saytruyen.net/truyen-dang-nhap-murim.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dang-nhap-murim.html%27" tppabs="https://saytruyen.net/truyen-dang-nhap-murim.html">Đăng nhập Murim</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-dang-nhap-murim/chuong-90  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-dang-nhap-murim/chuong-90%27" tppabs="https://saytruyen.net/truyen-dang-nhap-murim/chuong-90" class="btn-link">Chapter 90</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    22 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Thể Thao Mạo Hiểm" href="javascript:if(confirm(%27https://saytruyen.net/truyen-the-thao-mao-hiem.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-the-thao-mao-hiem.html%27" tppabs="https://saytruyen.net/truyen-the-thao-mao-hiem.html">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg" tppabs="https://saytruyen.net/storage/images/cover/6fe21817ac1de26d4fddb09d90a05e36.jpg" loading="lazy" title="Thể Thao Mạo Hiểm" alt="the-thao-mao-hiem">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Thể Thao Mạo Hiểm" href="javascript:if(confirm(%27https://saytruyen.net/truyen-the-thao-mao-hiem.html  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-the-thao-mao-hiem.html%27" tppabs="https://saytruyen.net/truyen-the-thao-mao-hiem.html">Thể Thao Mạo Hiểm</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="javascript:if(confirm(%27https://saytruyen.net/truyen-the-thao-mao-hiem/chuong-364  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/truyen-the-thao-mao-hiem/chuong-364%27" tppabs="https://saytruyen.net/truyen-the-thao-mao-hiem/chuong-364" class="btn-link">Chapter 364</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    1 tuần trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
+                        <a class="widget-view-more" href="#">Xem Thêm Nhiều Truyện</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="bottom-sidebar" id="bottom-sidebar">
+         <div class="container">
+            <div class="genres">
+               <div class="widget-heading">
+                  <h5 class="heading">Thể loại</h5>
+               </div>
+               <ul class="row list-unstyled">
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/action  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/action%27" tppabs="https://saytruyen.net/genre/action">
+                     <i class="fas fa-angle-right"></i> Action </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/adult  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/adult%27" tppabs="https://saytruyen.net/genre/adult">
+                     <i class="fas fa-angle-right"></i> Adult </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/adventure  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/adventure%27" tppabs="https://saytruyen.net/genre/adventure">
+                     <i class="fas fa-angle-right"></i> Adventure </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/comedy  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/comedy%27" tppabs="https://saytruyen.net/genre/comedy">
+                     <i class="fas fa-angle-right"></i> Comedy </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/cooking  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/cooking%27" tppabs="https://saytruyen.net/genre/cooking">
+                     <i class="fas fa-angle-right"></i> Cooking </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/detective  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/detective%27" tppabs="https://saytruyen.net/genre/detective">
+                     <i class="fas fa-angle-right"></i> Detective </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/doujinshi  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/doujinshi%27" tppabs="https://saytruyen.net/genre/doujinshi">
+                     <i class="fas fa-angle-right"></i> Doujinshi </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/drama  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/drama%27" tppabs="https://saytruyen.net/genre/drama">
+                     <i class="fas fa-angle-right"></i> Drama </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/ecchi  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/ecchi%27" tppabs="https://saytruyen.net/genre/ecchi">
+                     <i class="fas fa-angle-right"></i> Ecchi </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/fantasy  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/fantasy%27" tppabs="https://saytruyen.net/genre/fantasy">
+                     <i class="fas fa-angle-right"></i> Fantasy </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/gender-bender  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/gender-bender%27" tppabs="https://saytruyen.net/genre/gender-bender">
+                     <i class="fas fa-angle-right"></i> Gender Bender </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/harem  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/harem%27" tppabs="https://saytruyen.net/genre/harem">
+                     <i class="fas fa-angle-right"></i> Harem </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/historical  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/historical%27" tppabs="https://saytruyen.net/genre/historical">
+                     <i class="fas fa-angle-right"></i> Historical </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/horror  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/horror%27" tppabs="https://saytruyen.net/genre/horror">
+                     <i class="fas fa-angle-right"></i> Horror </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/josei  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/josei%27" tppabs="https://saytruyen.net/genre/josei">
+                     <i class="fas fa-angle-right"></i> Josei </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/manga  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/manga%27" tppabs="https://saytruyen.net/genre/manga">
+                     <i class="fas fa-angle-right"></i> Manga </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/manhua  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/manhua%27" tppabs="https://saytruyen.net/genre/manhua">
+                     <i class="fas fa-angle-right"></i> Manhua </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/manhwa  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/manhwa%27" tppabs="https://saytruyen.net/genre/manhwa">
+                     <i class="fas fa-angle-right"></i> Manhwa </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/martial-arts  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/martial-arts%27" tppabs="https://saytruyen.net/genre/martial-arts">
+                     <i class="fas fa-angle-right"></i> Martial Arts </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/mature  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/mature%27" tppabs="https://saytruyen.net/genre/mature">
+                     <i class="fas fa-angle-right"></i> Mature </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/mecha  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/mecha%27" tppabs="https://saytruyen.net/genre/mecha">
+                     <i class="fas fa-angle-right"></i> Mecha </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/mystery  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/mystery%27" tppabs="https://saytruyen.net/genre/mystery">
+                     <i class="fas fa-angle-right"></i> Mystery </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/one-shot  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/one-shot%27" tppabs="https://saytruyen.net/genre/one-shot">
+                     <i class="fas fa-angle-right"></i> One shot </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/psychological  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/psychological%27" tppabs="https://saytruyen.net/genre/psychological">
+                     <i class="fas fa-angle-right"></i> Psychological </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/romance  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/romance%27" tppabs="https://saytruyen.net/genre/romance">
+                     <i class="fas fa-angle-right"></i> Romance </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/school-life  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/school-life%27" tppabs="https://saytruyen.net/genre/school-life">
+                     <i class="fas fa-angle-right"></i> School Life </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/sci-fi  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/sci-fi%27" tppabs="https://saytruyen.net/genre/sci-fi">
+                     <i class="fas fa-angle-right"></i> Sci-fi </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/seinen  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/seinen%27" tppabs="https://saytruyen.net/genre/seinen">
+                     <i class="fas fa-angle-right"></i> Seinen </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/shoujo  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/shoujo%27" tppabs="https://saytruyen.net/genre/shoujo">
+                     <i class="fas fa-angle-right"></i> Shoujo </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/shoujo-ai  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/shoujo-ai%27" tppabs="https://saytruyen.net/genre/shoujo-ai">
+                     <i class="fas fa-angle-right"></i> Shoujo Ai </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/shounen  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/shounen%27" tppabs="https://saytruyen.net/genre/shounen">
+                     <i class="fas fa-angle-right"></i> Shounen </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/shounen-ai  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/shounen-ai%27" tppabs="https://saytruyen.net/genre/shounen-ai">
+                     <i class="fas fa-angle-right"></i> Shounen Ai </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/slice-of-life  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/slice-of-life%27" tppabs="https://saytruyen.net/genre/slice-of-life">
+                     <i class="fas fa-angle-right"></i> Slice of Life </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/smut  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/smut%27" tppabs="https://saytruyen.net/genre/smut">
+                     <i class="fas fa-angle-right"></i> Smut </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/soft-yaoi  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/soft-yaoi%27" tppabs="https://saytruyen.net/genre/soft-yaoi">
+                     <i class="fas fa-angle-right"></i> Soft Yaoi </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/soft-yuri  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/soft-yuri%27" tppabs="https://saytruyen.net/genre/soft-yuri">
+                     <i class="fas fa-angle-right"></i> Soft Yuri </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/sports  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/sports%27" tppabs="https://saytruyen.net/genre/sports">
+                     <i class="fas fa-angle-right"></i> Sports </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/supernatural  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/supernatural%27" tppabs="https://saytruyen.net/genre/supernatural">
+                     <i class="fas fa-angle-right"></i> Supernatural </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/tragedy  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/tragedy%27" tppabs="https://saytruyen.net/genre/tragedy">
+                     <i class="fas fa-angle-right"></i> Tragedy </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/webtoon  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/webtoon%27" tppabs="https://saytruyen.net/genre/webtoon">
+                     <i class="fas fa-angle-right"></i> Webtoon </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/yaoi  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/yaoi%27" tppabs="https://saytruyen.net/genre/yaoi">
+                     <i class="fas fa-angle-right"></i> Yaoi </a>
+                  </li>
+                  <li class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-6">
+                     <a href="javascript:if(confirm(%27https://saytruyen.net/genre/yuri  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/genre/yuri%27" tppabs="https://saytruyen.net/genre/yuri">
+                     <i class="fas fa-angle-right"></i> Yuri </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <footer class="site-footer">
+         <div class="bottom-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="nav-footer">
+                        <ul class="list-inline">
+                           <li><a href="javascript:if(confirm(%27https://saytruyen.net/privacy-policy  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/privacy-policy%27" tppabs="https://saytruyen.net/privacy-policy">Điều Khoản</a></li>
+                           <li><a href="javascript:if(confirm(%27https://saytruyen.net/tos  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/tos%27" tppabs="https://saytruyen.net/tos">Chính Sách</a></li>
+                           <li><a href="javascript:if(confirm(%27https://saytruyen.net/contact-us  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/contact-us%27" tppabs="https://saytruyen.net/contact-us">Liên lạc</a></li>
+                        </ul>
+                     </div>
+                     <div class="copyright">
+                        <p>© 2021 <a href="index.htm" tppabs="https://saytruyen.net/">SayTruyen</a> All rights reserved</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="wp-manga-section">
+         <input type="hidden" name="bookmarking" value="0">
+         <div class="modal fade" id="form-login" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">×</span></button>
+                  </div>
+                  <div class="modal-body">
+                     <div id="login" class="login">
+                        <h3>
+                           <a href="index.htm" tppabs="https://saytruyen.net/" title="VipToon" tabindex="-1">Đăng Nhập</a>
+                        </h3>
+                        <p class="message login"></p>
+                        <meta name="robots" content="max-image-preview:large">
+                        <link rel="dns-prefetch" href="https://s.w.org/">
+                        <form name="loginform" id="loginform" method="post">
+                           <p>
+                              <label>Email * <br> <input type="text" name="log" class="input user_login" value="" size="20">
+                              </label>
+                           </p>
+                           <p>
+                              <label>Mật Khẩu * <br> <input type="password" autocomplete="" name="pwd" class="input user_pass" value="" size="20">
+                              </label>
+                           </p>
+                           <p></p>
+                           <p class="forgetmenot">
+                              <label>
+                              <input name="rememberme" type="checkbox" id="rememberme" value="forever">Nhớ thông tin
+                              </label>
+                           </p>
+                           <input hidden id="login_url" value="https://saytruyen.net/user/login">
+                           <input hidden id="register_url" value="https://saytruyen.net/user/register">
+                           <input hidden id="reset_url" value="https://saytruyen.net/admin/password/email">
+                           <p class="submit">
+                              <input type="submit" name="wp-submit" class="button button-primary button-large wp-submit" value="Log In">
+                              <input type="hidden" name="testcookie" value="1">
+                           </p>
+                        </form>
+                        <p class="nav">
+                           <a href="javascript:void(0)" class="to-reset">Quên Mật Khẩu?</a>
+                        </p>
+                        <p class="backtoblog">
+                           <a href="javascript:void(0)">← Quay lại trang chủ</a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="modal-footer"></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="form-sign-up" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">×</span></button>
+                  </div>
+                  <div class="modal-body">
+                     <div id="sign-up" class="login">
+                        <h3>
+                           <a href="index.htm" tppabs="https://saytruyen.net/" title="VipToon" tabindex="-1">Đăng Kí</a>
+                        </h3>
+                        <p class="message register">Đăng Kí Sử Dụng</p>
+                        <form name="registerform" id="registerform" novalidate="novalidate">
+                           <p>
+                              <label>Tên Đăng Nhập * <br>
+                              <input type="text" name="user_sign-up" class="input user_login" value="" size="20">
+                              </label>
+                           </p>
+                           <p>
+                              <label>Email Địa Chỉ * <br>
+                              <input type="email" name="email_sign-up" class="input user_email" value="" size="20">
+                              </label>
+                           </p>
+                           <p>
+                              <label>Mật Khẩu *<br>
+                              <input type="password" name="pass_sign-up" autocomplete="" class="input user_pass" value="" size="25">
+                              </label>
+                           </p>
+                           <p></p>
+                           <input type="hidden" name="redirect_to" value="">
+                           <p class="submit">
+                              <input type="submit" name="wp-submit" class="button button-primary button-large wp-submit" value="Register">
+                           </p>
+                        </form>
+                        <p class="nav">
+                           <a href="javascript:void(0)" class="to-login">Đăng Nhập</a>
+                           |
+                           <a href="javascript:void(0)" class="to-reset">Quên Mật Khẩu?</a>
+                        </p>
+                        <p class="backtoblog">
+                           <a href="javascript:void(0)">← Quay lại trang chủ</a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="modal-footer"></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="form-reset" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">×</span></button>
+                  </div>
+                  <div class="modal-body">
+                     <div id="reset" class="login">
+                        <h3>
+                           <a href="javascript:void(0)" class="to-reset">Quên Mật Khẩu?</a>
+                        </h3>
+                        <p class="message reset">Vui lòng nhập email của bạn, bạn sẽ nhận một link qua email để cài đặt lại password</p>
+                        <form name="resetform" id="resetform" method="post">
+                           <p>
+                              <label>Tên Đăng Nhập Hoặc Email Địa Chỉ <br>
+                              <input type="text" name="user_reset" id="user_reset" class="input" value="" size="20">
+                              </label>
+                           </p>
+                           <p class="submit">
+                              <input type="submit" name="wp-submit" class="button button-primary button-large wp-submit" value="Get New Password">
+                              <input type="hidden" name="testcookie" value="1">
+                           </p>
+                        </form>
+                        <p>
+                           <a class="backtoblog" href="javascript:void(0)">← Quay lại trang chủ</a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="modal-footer"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <input type="hidden" name="_token" id="token" value="eECF7r9L88RNwiNMnj12GlFvqXSkSkdkVj8yJlW1">
+      <script type="text/javascript" src="assets/js/all.js-id=3a62848d156951bc9eda.js" ></script>
+      <!-- <script type="text/javascript">
+        (function(){
+            window['__CF$cv$params']={
+                r:'6b483807a8786bf7',
+                m:'LOUvhVGWBnkJVDEssCOo6OYIWV6XqHO3gQR1Q4obGjc-1637983207-0-Ac6TbGx3xKw4kBsWHo6bQ/oYNJhXhswDBTUgysFvDwkUyIjuA3c+c+Tts0g1GZQdlsuZraurMbDjy9dJUO2+HgfizMhwZDF/AoCFOb0MB6rzUTTIzvYu1kIOtVowimflGg==',
+                s:[0x88d1c2971b,0xc9d2735683],
+            }
+        })();
+    </script> -->
+   </body>
+</html>
