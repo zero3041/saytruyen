@@ -312,7 +312,30 @@
                   <div class="history popular">
                      <div class="widget-heading">
                         <h5 class="heading">Lịch sử</h5>
+                        
                      </div>
+                     <div class="popular-item-wrap">
+                           <div class="popular-img widget-thumbnail c-image-hover">
+                              <a title="Sân Cỏ Chiến Ký" href="">
+                              <img width="75" height="106" class="img-responsive lazyload" data-src="assets/images/demo.jpeg"  loading="lazy" title="Sân Cỏ Chiến Ký" alt="san-co-chien-ki">
+                              </a>
+                           </div>
+                           <div class="popular-content">
+                              <h5 class="widget-title">
+                                 <a title="Sân Cỏ Chiến Ký" href="">Sân Cỏ Chiến Ký</a>
+                              </h5>
+                              <div class="list-chapter">
+                                 <div class="chapter-item ">
+                                    <span class="chapter font-meta">
+                                    <a href="" class="btn-link">Chapter 37</a>
+                                    </span>
+                                    <span class="post-on font-meta">
+                                    10 giờ trước</span>
+                                 </div>
+                                 <div class="chapter-item "></div>
+                              </div>
+                           </div>
+                        </div>
                      <div class="widget-content history-content">
                         <span hidden>https://saytruyen.net/history</span>
                      </div>

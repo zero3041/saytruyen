@@ -65,7 +65,7 @@
                                     <a href="../saytruyen/history.php" data-toggle="modal" data-target="#form-login">Đang theo dõi</a>
                                  </li>
                                  <li class="up-manga">
-                                    <a href="javascript:if(confirm(%27https://saytruyen.net/user-panel  \nBạn có muốn mở%27))window.location=%27https://saytruyen.net/user-panel%27" tppabs="https://saytruyen.net/user-panel" class="menu-link  main-menu-link"> Đăng Truyện </a>
+                                    <a href="" class="menu-link  main-menu-link"> Đăng Truyện </a>
                                  </li>
                               </ul>
                            </div>
@@ -81,7 +81,7 @@
                                     <i class="icon ion-android-close"></i> </a>
                                     <ul class="search-main-menu">
                                        <li>
-                                          <form class="manga-search-form search-form ajax" action="https://saytruyen.net/search" method="get">
+                                          <form class="manga-search-form search-form ajax"  method="get">
                                              <input class="manga-search-field ui-autocomplete-input" type="text" placeholder="Search..." name="s" value="" autocomplete="off">
                                              <input type="hidden" name="post_type" value="wp-manga"> <i class="fas fa-search"></i>
                                              <div class="loader-inner ball-clip-rotate-multiple">
