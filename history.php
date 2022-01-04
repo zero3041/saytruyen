@@ -7,7 +7,7 @@
     if (isset($_GET['controller'])) {
 		include('Route/web.php'); /*xử lý các request trong Route/web.php*/
 	} else {
-		require 'View/home.php'; /*require giao diện trang chủ*/
+		require 'View/follow.php'; /*require giao diện trang chủ*/
 	}
 
     include 'view/footer.php';
